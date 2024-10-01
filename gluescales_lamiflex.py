@@ -10,15 +10,15 @@ from mysql.connector import errorcode
 ###      CONFIG SECTION    ###
 
 # IP address and port of the scale device
-ip = "10.4.5.217"
-port = 5001
+ip = "192.168.100.100" # scales IP addres
+port = 5001 # scales TCP port 
 
 # MySQL connection configuration
 config = {
-    'user': 'synaptik',
-    'password': 'synaptik',
+    'user': 'username',
+    'password': 'password4db',
     'host': 'localhost',
-    'database': 'Lamiflex',
+    'database': 'database name',
 }
 
 ### END OF CONFIGURATION SECTION ###
